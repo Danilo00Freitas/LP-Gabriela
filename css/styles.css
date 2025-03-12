@@ -3969,10 +3969,11 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
   }
-  .navbar-expand-lg .navbar-collapse {
+.navbar-expand-lg .navbar-collapse {
     display: flex !important;
-    flex-basis: auto;
-  }
+    justify-content: center;  
+    width: 100%; 
+}
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
@@ -10911,6 +10912,7 @@ p {
   font-size: 0.95rem;
   color: white;
   letter-spacing: 0.0625em;
+  text-align: center;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #5DADE2;
