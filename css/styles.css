@@ -10851,7 +10851,7 @@ p {
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -11273,6 +11273,8 @@ section#contact {
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  height: 300px;
+  width: 100%;
 }
 section#contact .section-heading {
   color: #fff;
@@ -11331,4 +11333,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 .custom-circle {
     color: #5DADE2 !important;
 }
+
 
